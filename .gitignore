@@ -53,3 +53,5 @@ Thumbs.db
 /backend/storage/framework/cache/data/*
 /backend/storage/framework/sessions/*
 /backend/storage/framework/views/*
+
+/backend/database/export-hostinger.php
