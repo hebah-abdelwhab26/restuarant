@@ -1,0 +1,55 @@
+# Dependencies
+/node_modules
+/backend/vendor
+
+# React build (generated during deployment)
+/build
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Laravel secrets and runtime files
+/backend/.env
+/backend/.env.*
+!/backend/.env.example
+/backend/storage/logs/
+/backend/storage/framework/cache/
+/backend/storage/framework/sessions/
+/backend/storage/framework/views/
+
+# Local databases and backups
+*.sqlite
+*.sqlite-*
+*.db
+database-backup-*
+restaurant-backend.zip
+
+# Logs and OS files
+npm-debug.log*
+yarn-debug.log*
+.DS_Store
+Thumbs.db
+
+# Never upload local Laravel environment or databases
+/backend/.env
+/backend/.env.*
+!/backend/.env.example
+/backend/database/*.sqlite
+/backend/database/*.sqlite-*
+/backend/database/*.sql
+/backend/hostinger-*.sql
+/backend/*import*.sql
+/backend/*export*.php
+/backend/*transfer*.php
+/backend/test-hostinger-mysql.php
+/backend/check_restaurant_data.php
+/backend/create_restaurant_sql.php
+
+# Laravel generated files
+/backend/vendor/
+/backend/storage/logs/*
+/backend/storage/framework/cache/data/*
+/backend/storage/framework/sessions/*
+/backend/storage/framework/views/*

@@ -1,0 +1,133 @@
+body{
+  height: fit-content;
+}
+
+@media (max-width: 768px) {
+  br {
+    display: none;
+  }
+}
+
+.input-wrapper :hover{
+  color: aliceblue;
+}
+.full-btn:hover {
+  color: white;
+}
+
+/* =============================== */
+/* Navbar) */
+/* =============================== */
+@media (max-width: 768px) {
+  .container {
+  width: 95% !important;
+    height: auto !important;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+
+/* =============================== */
+/* =============================== */
+@media (max-width: 768px) {
+  .reservation-form,
+  .form-left {
+    width: 100%;
+    margin: 150px auto;
+  }
+}
+
+/* ===================================== */
+/* 📱 Mobile Very Small (≤360px) */
+/* ===================================== */
+@media (max-width: 360px) {
+  .container {
+    width: 98% !important;
+    padding: 14px;
+  }
+
+  .input-wrapper {
+    margin-bottom: 10px;
+  }
+
+  .social-wrapper {
+    gap: 10px !important;
+    margin-bottom: 10px;
+  }
+
+  .or-divider {
+    margin: 8px 0;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+
+  .form-text,
+  .bottom-text {
+    margin-top: 8px;
+  }
+}
+
+/* ===================================== */
+/* 📲 Mobile (≤480px) */
+/* ===================================== */
+@media (max-width: 480px) {
+  .container {
+    width: 95% !important;
+    padding: 18px;
+  }
+
+  .input-wrapper {
+    margin-bottom: 12px;
+  }
+
+  .social-wrapper {
+    gap: 12px !important;
+    margin-bottom: 12px;
+  }
+
+  .or-divider {
+    margin: 10px 0;
+  }
+
+  .btn {
+    margin-top: 12px;
+  }
+
+  .form-text,
+  .bottom-text {
+    margin-top: 10px;
+  }
+}
+
+/* ===================================== */
+/* 💻 Tablet (≤768px) */
+/* ===================================== */
+@media (max-width: 768px) {
+  .container {
+    width: 85% !important;
+    padding: 22px;
+  }
+
+  .input-wrapper {
+    margin-bottom: 14px;
+  }
+
+  .social-wrapper {
+    margin-bottom: 14px;
+  }
+
+  .or-divider {
+    margin: 12px 0;
+  }
+
+  .btn {
+    margin-top: 14px;
+  }
+
+  .form-text,
+  .bottom-text {
+    margin-top: 12px;
+  }
+}
